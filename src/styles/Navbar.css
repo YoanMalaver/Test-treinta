@@ -9,14 +9,14 @@
   font-weight: bold;
 }
 .navbar ul {
+  width: 100%;
   list-style: none;
   display: flex;
+  justify-content: space-evenly;
   text-decoration: none;
   align-items: center;
 }
-.navbar ul li {
-  margin: 0 10px;
-}
+
 .navbar ul li a {
   text-decoration: none;
   color: black;

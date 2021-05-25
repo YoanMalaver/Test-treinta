@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import MapContainer from '../components/MapContainer';
 import Informacion from '../components/Informacion';
-// import MapContainer from '../components/MapContainer';
-// import Menu from '../components/Menu';
+import Register from '../components/Register';
+
 import '../styles/Navbar.css';
 import Layaout from '../components/Layaout';
 
@@ -14,7 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={Informacion} />
           <Route exact path='/Mapa' component={MapContainer} />
-          {/* <Route exact path='/crearseniorities' component={CrearSeniorities} /> */}
+          <Route exact path='/registro' component={Register} />
         </Switch>
       </Layaout>
     </Router>

@@ -25,6 +25,9 @@ const Menu = () => {
             <Link to='/mapa'>Mapa Negocios</Link>
           </li>
           <li>
+            <Link to='/registro'>Registrate</Link>
+          </li>
+          <li>
             <ButtonLogin />
           </li>
           <li>
