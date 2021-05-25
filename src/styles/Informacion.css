@@ -1,0 +1,29 @@
+.infomain {
+  background-color: #fed209;
+  border-radius: 4px;
+  height: 600px;
+  display: flex;
+}
+.text,
+.image {
+  width: 60%;
+  padding: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h1 {
+  margin-bottom: 25px;
+  color: rgb(44, 44, 44);
+}
+.text p {
+  margin-bottom: 25px;
+  color: rgb(44, 44, 44);
+}
+.image {
+  align-items: center;
+}
+.image img {
+  width: 60%;
+  height: 90%;
+}
