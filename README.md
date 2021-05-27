@@ -28,3 +28,9 @@ instala con el siguiente comando npm install
 ### Link Diseños figma
 
 - https://www.figma.com/file/XXyJARXTj3sXOKraL0gQdF/Test-treinta?node-id=0%3A1
+
+### Link de la aplicación con deploy en firebase
+
+- https://test-app-8cb65.web.app/
+
+la autenticación se puede realizar con Auth0 :)
